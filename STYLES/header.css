@@ -1,3 +1,14 @@
 cabecalho{
-    
+    background-color: blueviolet; (cor-do-cabecalho)
+    padding: 1em;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container_imagem, .container_frase{
+    padding: 1em;
+}
+.container_titulo, .container_frase{
+    display: none;
 }
